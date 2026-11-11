@@ -1,0 +1,19 @@
+{
+  "name": "railway-ops",
+  "description": "Railway multi-service operations: managing separate services within one project, per-service environment variables, service identification, restart/redeploy patterns, and cross-service wiring (when one service needs to call another). Use when working with Railway projects that have multiple services (web, telegram-listener, api, bot, etc.) \u2014 especially when adding a new env var to one service and needing to check/set it on others.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Railway multi-service operations: managing separate services within one project, per-service environment variables, service identification, restart/redeploy patterns, and cross-service wiring (when one service needs to call another). Use when working with Railway projects that have multiple services (web, telegram-listener, api, bot, etc.) \u2014 especially when adding a new env var to one service and needing to check/set it on others.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "railway-ops",
+      "source": "./plugins/railway-ops",
+      "description": "Railway multi-service operations: managing separate services within one project, per-service environment variables, service identification, restart/redeploy patterns, and cross-service wiring (when one service needs to call another). Use when working with Railway projects that have multiple services (web, telegram-listener, api, bot, etc.) \u2014 especially when adding a new env var to one service and needing to check/set it on others."
+    }
+  ]
+}
